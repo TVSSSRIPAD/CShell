@@ -9,12 +9,14 @@ A Basic and Simple Shell written in C
     3. The makefile will create the cshell executable file
     4. Run './cshell' to start the shell
     5. If you face any issues, run the command 'make clean'. 
-       This removes old executables. Then run 'make' to compile all the files again and finally run './cshell'
+       This removes old executables. Then run 'make' to compile all the files again 
+       and finally run './cshell'
 #### The Prompt
 
 The prompt of this shell is in the following format:-
 
 [system name]:~ [absolute path of the current directory] >>
+
 ex: sripad:~ /home/folder1>> 
 
 
@@ -58,4 +60,4 @@ ex: sripad:~ /home/folder1>>
 #### TODO 
 - Add  '|' Pipe handling
 
-More documentation coming soon!
+ 
