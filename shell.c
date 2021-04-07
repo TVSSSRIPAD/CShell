@@ -12,7 +12,7 @@
 #define SIZE 1024
 #define MAX_INPUT_SIZE 1024
 
-#define JOB_SIZE 10 //for queue
+#define JOB_SIZE 50 //for queue
 
 void numRun(char *cmd, char line[]);
 void runInbuilt(char **tokens, char *cmd);
@@ -506,7 +506,7 @@ void runInbuilt(char **tokens, char *cmd)
 			}
 			else if (i == 11)
 			{
-				printf("exits : exits the shell cleanly");
+				printf("exit : exits the shell cleanly");
 				for (j = 0; j < 9; j++)
 					printf("%c", x);
 			}
