@@ -29,16 +29,16 @@ ex: sripad:~ /home/folder1>>
 &ensp;&ensp;This chamges the current working directory to 'path.'
 3. about : 
 &ensp;&ensp;Shows basic details about this shell 
-4. help : 
+4. help :   
 &ensp;&ensp;shows help text about basic inbuilt commands  
-5. history : 
-&ensp;&ensp;Gives list of recently ran commands    
-&ensp;&ensp; Note:- Recently ran commands can be ran again by entering !num. This will run the numth command from history again.
+5. history :   
+&ensp;&ensp;Gives list of recently ran commands      
+&ensp;&ensp; Note:- Recently ran commands can be ran again by entering !num. This will run the numth command from history again.  
 &ensp;&ensp;Example:- Suppose output of history is as follows:-
-&ensp;&ensp;1 ls
-&ensp;&ensp;2 pwd
-&ensp;&ensp;3 about
-&ensp;&ensp;4 help
+&ensp;&ensp;1 ls  
+&ensp;&ensp;2 pwd  
+&ensp;&ensp;3 about  
+&ensp;&ensp;4 help  
 &ensp;&ensp;The `pwd` command can be ran again by running !2 in the shell
 6. jobs :  
 &ensp;&ensp;Lists all the processes running in the background.
